@@ -1,7 +1,7 @@
-body {
+*{
 	margin: 0;
-	padding: 0;
 }
+
 @keyframes slider{
     0%{
         left: 100%:
@@ -37,65 +37,20 @@ body {
         
     }
 }
+
 #slider{
-    overflow: hidden;
+	overflow: hidden;
 }
+
 #slider figure img{
-    float: left;
-    width: 100%;
+	width: 20%;
+	float: left;
 }
+
 #slider figure{
-    width: 100%;
-    left: 0;
-    margin: 0;
-    animation: 10s slider infinite; 
-    position: relative
-}
-.nav {
-	position: absolute;
-	left: 80%;
-	top: 1%;
-}
-.nav ul {
-	list-style: none;
-}
-.nav ul li {
-	list-style: none;
-	display: inline-block;
-	color: #fff;
-	font-family: 'Book Antiqua';
-	padding: 10px 50px;
-
-}
-.login {
-	background: red;
-	color: #fff;
-	border-radius: 4px;
-}
-
-.ppku {
-    position: absolute;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    top: 40%;
-    left: 50%;
-}
-.ppku h1{
-    font-family:'Aharoni';
-    color: lightblue;
-    font-size: 500%;
-}
-.btn {
-    border-radius: 9px;
-    font-family: 'Broadway', sans-serif;
-    color: #CD5C5C;
-    font-size: 135%;
-    padding: 10px 20px;
-    border: solid #F08080 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.btn:hover{
-    color: #fff;
-    border: solid #fff 3px;
+	position: relative;
+	width: 500%;
+	margin:0;
+	left: 0;
+	animation: 20s slider infinite;
 }
