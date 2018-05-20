@@ -41,10 +41,13 @@
                 <a class="nav-link js-scroll-trigger" href="#materi">Materi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#discussion">diskusi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="myprofile.php">profileku</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="index.php">Keluar</a>
